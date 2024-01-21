@@ -7,9 +7,75 @@
     <title>Tea House</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/0227959a72.js" crossorigin="anonymous"></script>
+
+    <!-- tailwind custom color -->
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .font-manrope {
+            font-family: 'Manrope', sans-serif;
+        }
+    </style>
+
 </head>
 
-<body>
+<body class=".font-manrope">
+    <!-- header section -->
+    <header class="container mx-auto">
+        <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
+                <div>
+                    <h1 class="text-8xl font-bold">It's good
+                        <br>
+                        tea time at The Tea House
+                    </h1>
+                    <p class="py-6">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.
+                    </p>
+                    <button class="btn rounded-md text-white bg-gradient-to-r from-orange-500 to-red-600">Explore More <i class="fa-solid fa-arrow-up-right-from-square"></i></button>
+                </div>
+                <div>
+                    <img src="images/banner.png" class="max-w-xl" />
+                    <div class=" -m-24 flex ml-20 rounded-xl items-center p-3 w-56 drop-shadow-2xl bg-white gap-3">
+                        <i class="fa-solid fa-star text-4xl" style="color: #FFD43B;"></i>
+                        <div>
+                            <h3 class="text-3xl">5.00</h3>
+                            <p class="text-sm">Trust Pilot Ratings</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+        <nav>
+
+        </nav>
+
+    </footer>
 
 </body>
 
